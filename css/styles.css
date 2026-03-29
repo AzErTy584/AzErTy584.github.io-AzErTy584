@@ -34,8 +34,8 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1e30f3;
-  --bs-secondary: #e21e80;
+  --bs-primary: #0061f2;
+  --bs-secondary: #00205b;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -43,7 +43,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 30, 48, 243;
-  --bs-secondary-rgb: 226, 30, 128;
+  --bs-secondary-rgb: 0, 32, 91;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -2847,13 +2847,13 @@ textarea.form-control-lg {
   --bs-btn-color: #fff;
   --bs-btn-bg: #00205b;
   --bs-btn-border-color: #00205b;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1a29cf;
-  --bs-btn-hover-border-color: #1826c2;
+  --bs-btn-hover-color: #00205b;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #00205b;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #1826c2;
-  --bs-btn-active-border-color: #1724b6;
+  --bs-btn-active-color: #0061f2;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: #0061f2;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #00205b;
@@ -3106,8 +3106,8 @@ textarea.form-control-lg {
   --bs-btn-hover-border-color: #00205b;
   --bs-btn-focus-shadow-rgb: 33, 37, 41;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #00205b;
-  --bs-btn-active-border-color: #00205b;
+  --bs-btn-active-bg: #0061f2;
+  --bs-btn-active-border-color: #0061f2;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #00205b;
   --bs-btn-disabled-bg: transparent;
@@ -8185,7 +8185,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #0061f2 !important;
 }
 
 .text-secondary {
@@ -11611,7 +11611,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: #00205b;
 }
 .profile .dots-3 {
   position: absolute;
@@ -11629,7 +11629,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: #00205b;
 }
 
 @media (min-width: 576px) {
