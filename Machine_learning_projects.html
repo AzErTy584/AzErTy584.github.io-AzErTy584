@@ -16,6 +16,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
@@ -29,7 +30,6 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
                             <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,9 +48,18 @@
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
                                             <h2 class="fw-bolder">Missing part model</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <p>In high-cadence aerospace production, "Missing Parts" (MSP) are the primary drivers of assembly line disruptions. To address this at the St. Eloi plant, I developed a Machine Learning model  designed to predict the generation of missing parts.</p>
+                                            <p>After a successful Proof of Concept (POC) achieving an average 80% Recall on the minority class, the project entered its next phase: </p>
+                                            <p>&middot;  The Logistics & Procurement departments collaborate with me to use the model’s explainability features to understand the underlying factors of missing part formation.</p>
+                                            <p>&middot;  I am collaborating with central Airbus entities to align this tool with global "Missing Part" models and initiatives.</p>
+                                            <p>&middot;  The next steps involve upgrading the model for deployment on the Skywise platform.</p>
+                                            <div class="feature border blue"><img src="https://res.cloudinary.com/apideck/image/upload/v1621797232/icons/airbus-skywise.png" width="40"></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-python-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-numpy-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-pandas-plain-wordmark"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-scikitlearn-plain"></i></div>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="assets/MSP_model_picture.png" alt="..." width="400" height="300"/>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +70,11 @@
                                         <div class="p-5">
                                             <h2 class="fw-bolder">The Untenlligent Cat</h2>
                                             <p>As part of an academic project, I designed and developed a custom NLP model capable of analyzing text to extract its main theme, generate summaries, identify key keywords, and retrieve relevant Wikipedia pages. The project also included building an interactive graphical interface (chatbot-style) for intuitive user interaction.</p>
-                                            <p>All models were developed from scratch—no external API calls to pre-trained LLMs were allowed, ensuring a deep understanding of NLP fundamentals and implementation.</p>
+                                            <p>All models were developed from scratch, no external API calls to pre-trained LLMs were allowed, ensuring a deep understanding of NLP fundamentals and implementation.</p>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-python-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-numpy-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-tensorflow-original"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-keras-plain-wordmark"></i></div>
                                         </div>
                                         <img class="img-fluid" src="assets/The_untenlligent_cat.png" alt="..." />
                                     </div>
@@ -72,18 +85,19 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Self-driving model (Carla)</h2>
+                                            <h2 class="fw-bolder">Self-driving model</h2>
                                             <p>As part of an academic project in my Master’s degree in Artificial Intelligence, I designed and implemented a self-driving agent using Reinforcement Learning (RL). The goal was to develop a model capable of autonomously navigating the CARLA simulation environment while adhering to key driving constraints: lane-keeping, collision avoidance, and dynamic speed management.</p>
                                             <p>Training the model was conducted solely on personal hardware (without access to dedicated infrastructure), which limited the number of training episodes.</p>
                                             <p>To overcome this challenge, I:</p>
                                             <p>&middot;  Optimized the model architecture (PPO) to maximize efficiency under resource constraints.</p>
                                             <p>&middot;  Refined the reward function strategy to accelerate convergence despite fewer iterations.</p>
                                             <p>This experience strengthened my ability to deliver high-performance solutions in resource-limited environments while maintaining technical rigor.</p>
+                                            <div class="feature border blue"><img src="https://logodix.com/logo/2053012.png" width="40"></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-python-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-numpy-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-pytorch-original"></i></div>
                                         </div>
-                                        <video controls autoplay muted loop style="width: 100%; max-width: 400px; height: auto ;">
-                                            <!-- <source src="assets/Carla_pres.mp4" type="video/mp4"> -->
-                                            Votre navigateur ne supporte pas la lecture de vidéos.
-                                        </video>
+                                        <img class ="img-fluid" src="assets/Carla_pres.gif" alt="Animation" width="400" height="300" />
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +110,7 @@
                 <div class="container px-5 my-5">
                     <div class="text-center">
                         <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="mailto:condamintheo@gmail.com?subject=Contact depuis mon portfolio&body=Bonjour Théo,">Contact me</a>
                     </div>
                 </div>
             </section>
@@ -105,20 +119,13 @@
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
                     <div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
                         <span class="mx-1">&middot;</span>
                         <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
     </body>
 </html>
