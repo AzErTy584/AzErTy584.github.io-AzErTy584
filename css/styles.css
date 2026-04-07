@@ -550,6 +550,7 @@ progress {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
   line-height: 1.2;
+  color: white;
 }
 @media (min-width: 1200px) {
   .display-6 {
@@ -3641,6 +3642,29 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.nav-link-blue {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: darkblue;
+  text-decoration: none;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link-blue:hover, 
+.nav-link-blue:focus {
+  color: #004499;
+}
+
+.nav-link-blue.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
