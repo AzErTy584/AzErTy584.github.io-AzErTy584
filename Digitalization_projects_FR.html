@@ -98,11 +98,20 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Projet à venir</h2>
-                                            <p>Nouveau projet en cours de développement — restez connectés !</p>
+                                            <h2 class="fw-bolder">RGPD Auditor</h2>
+                                            <p>RGPD Auditor est un outil d'audit de conformité automatisé utilisant une architecture de Génération Augmentée par Récupération (RAG). Le projet transforme des documents juridiques non structurés (PDF) en données exploitables pour les comparer dynamiquement à une base vectorielle de la réglementation européenne. Grâce à l'utilisation de modèles de langage avancés, il identifie les lacunes réglementaires, évalue les risques financiers et génère des recommandations concrètes pour sécuriser les traitements de données.</p>
+                                            <p>&middot; Architecture RAG Hybride (Dual-Stream) : Mise en œuvre d'un système de recherche croisée utilisant ChromaDB avec deux cycles de vie distincts : une collection persistante pour le corpus RGPD et une collection éphémère (in-memory) pour le traitement à la volée des contrats utilisateurs.</p>
+                                            <p>&middot; Query Expansion : Développement d'un module de reformulation LLM générant 4 variantes sémantiques par requête utilisateur afin de maximiser le rappel (Recall) lors de l'interrogation de la base légale.</p>
+                                            <p>&middot; Pipeline de Traitement Documentaire (ETL) : Conception d'un moteur de chunking structurel sous PyMuPDF capable d'identifier la hiérarchie des titres de section pour préserver la cohérence sémantique des clauses juridiques.</p>
+                                            <p>&middot; Modélisation & Inférence : Intégration des modèles Gemini-embedding-001 pour la vectorisation et Gemini 2.5 Flash pour la génération de rapports structurés, optimisés par un prompt "Judge".</p>
+                                            <p>&middot; Engineering & API : Encapsulation de la logique métier dans une API REST (FastAPI) avec gestion des sessions asynchrones, permettant une intégration fluide entre le backend de traitement de données et l'interface utilisateur.</p>
+                                            <div class="d-flex align-items-center gap-3 mt-3">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-python-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-google-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-fastapi-plain"></i></div>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                                     </div>
+                                        <img class="img-fluid ai-auditor" src="assets/AI_Auditor_2.png" alt="..." />
                                 </div>
                             </div>
                         </div>

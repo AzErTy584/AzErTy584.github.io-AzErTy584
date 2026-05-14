@@ -98,11 +98,21 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Futur project</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 class="fw-bolder">GDPR Auditor</h2>
+                                            <p>GDPR Auditor is an automated compliance auditing tool leveraging a Retrieval-Augmented Generation (RAG) architecture. The project transforms unstructured legal documents (PDFs) into actionable data by dynamically comparing them against a vector database of European regulations. By utilizing advanced large language models, it identifies regulatory gaps, assesses financial risks, and generates concrete recommendations to secure data processing workflows.</p>
+                                            <p>&middot; Hybrid Dual-Stream RAG Architecture: Implemented a cross-retrieval system using ChromaDB with two distinct lifecycles: a persistent collection for the GDPR legal corpus and an ephemeral (in-memory) collection for on-the-fly processing of user contracts.</p>
+                                            <p>&middot; Query Expansion Module: Developed an LLM-based reformulation engine that generates four semantic variants per user query to maximize Recall during the legal database interrogation phase.</p>
+                                            <p>&middot; Document Processing Pipeline (ETL): Engineered a structural chunking engine using PyMuPDF capable of identifying section title hierarchies to preserve the semantic coherence of specific legal clauses.</p>
+                                            <p>&middot; Modeling & Inference: Integrated gemini-embedding-001 for high-dimensional vectorization and Gemini 2.5 Flash for structured report generation, optimized via a specialized "Judge" prompt logic.</p>
+                                            <p>&middot; Engineering & API: Encapsulated core business logic within a FastAPI REST interface with asynchronous session management, ensuring seamless integration between the data processing backend and the user interface.</p>
+                                            <div class="d-flex align-items-center gap-3 mt-3">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-python-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-google-plain"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3"><i class="devicon-fastapi-plain"></i></div>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                                     </div>
+                                    <img class="img-fluid ai-auditor" src="assets/AI_Auditor_2.png" alt="..."/>
+                            </div>
                                 </div>
                             </div>
                         </div>

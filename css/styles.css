@@ -607,9 +607,12 @@ progress {
   margin-right: 1rem ;
 }
 
-/* .img-fluid:hover{
-transform: scale(1.1)
-} */
+.ai-auditor {
+  max-width: 500px; /* réduire ici si besoin (ex: 250px, 200px) */
+  width: 100%;      /* permet l'adaptation sur petits écrans */
+  height: auto;
+  display: block;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
